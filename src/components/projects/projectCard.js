@@ -14,7 +14,7 @@ export default function ProjectCard(props) {
         <div className="project-desciption">
           <ul>
             {props.desc["desc"].map((data, id) => (
-              <li>{data}</li>
+              <li style={{fontFamily:"initial"}}>{data}</li>
             ))}
           </ul>
         </div>

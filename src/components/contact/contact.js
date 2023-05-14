@@ -4,6 +4,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./contact.css";
 import Fade from "react-reveal/Fade";
+import CallIcon from '@mui/icons-material/Call';
 
 export default function ContactComponent() {
   const Mailto = ({ email, subject, body, children }) => {
@@ -23,6 +24,19 @@ export default function ContactComponent() {
         <h1 style={{textAlign:"center"}}>Contact Me</h1>
       <Fade left cascade>
         <div className="contact-div">
+
+        <div className="contact-links">
+           <CallIcon/>
+              <span
+                className="iconify"
+                data-inline="false"
+                style={{ color: "black" }}
+              >
+                +91 9685260286
+              </span>
+            
+          </div>
+
           <div className="contact-links">
             <EmailIcon style={{ fontSize: "50px" }} />
             <Mailto
@@ -66,6 +80,7 @@ export default function ContactComponent() {
               </span>
             </a>
           </div>
+          
         </div>
       </Fade>
     </div>

@@ -7,6 +7,8 @@ import Education from "../../components/education/education";
 import ContactComponent from "../../components/contact/contact";
 import Project from "../../components/projects/project";
 import ExperienceComponent from "../../components/experience/experienceComponent";
+// import Skills from "../skills/skills";
+import SkillsComponent from "../../components/skills/skillsComponent";
 
 class Home extends Component {
 
@@ -22,9 +24,11 @@ class Home extends Component {
       <hr/>
       <Project/>
       <hr/>
+      <SkillsComponent/>
+      <hr/>
+
       <Education/>
       <hr/>
-     
       <ContactComponent/>
       <Footer/>
       

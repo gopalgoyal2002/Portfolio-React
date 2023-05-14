@@ -38,78 +38,105 @@ const competitiveSites = {
 const projects = {
   projects: [
     {
-      Title: "Book Recommendation System",
+      Title: "Resume parser and Filter by Job description",
       Desription: {
-        desc: ["This a recommendation system build using streamlit and ml.", "ML recommendation system",
-      "This a recommendation system build using streamlit and ml.","This a recommendation system build using streamlit and ml.",
+        desc: ["Developed resume parser using Name Entity Recognization model and spacy to extract name, email and phone etc.",
+        "Train the NER model after annotating some resumes and existing data.",
+        "Filter the resumes based on a particular job description using semantic and contextual similarities.",
+        "Developed a Django App to use these functionality.",
     ],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002/Resume-Filter",
+      live: "https://github.com/gopalgoyal2002/Resume-Filter",
+    },
+    {
+      Title: "Blog WebApp",
+      Desription: {
+        desc: ["Designed Fronted in React then connected to the backend.",
+          "Develop Backend in Nodejs and MongoDB to write a blog."
+        ],
+      },
+      github: "https://github.com/gopalgoyal2002/Blog-Web-App",
+      live: "https://github.com/gopalgoyal2002/Blog-Web-App",
     },
     {
       Title: "Book Recommendation System",
       Desription: {
-        desc: ["This a recommendation system build using streamlit and ml.", "ML recommendation system",
-      "This a recommendation system build using streamlit and ml.","This a recommendation system build using streamlit and ml.",
+        desc: ["Developed a recommendation system using KNN (K nearest neighbor) algorithm on user ratings and book data."
+        ,"Designed the Frontend by Streamlit (python Library). This web app is hosted on Heroku Cloud Server."
     ],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002/Book_Recommendation_System",
+      live: "https://github.com/gopalgoyal2002/Book_Recommendation_System",
     },
     {
-      Title: "Book Recommendation System",
+      Title: "E-commerce web application (MERN)",
       Desription: {
-        desc: ["This a recommendation system build using streamlit and ml.", "ML recommendation system",
-      "This a recommendation system build using streamlit and ml.","This a recommendation system build using streamlit and ml.",
+        desc: ["Built a live E-Commerce web app hosted on the Heroku cloud. And also create an Admin panel for admin operations ",
+         "Developed APIs for Sign In/Up, user profile, admin panel cart, and CRUD functionality for products,users, and admin. ",
+      "Technology used: ReactJs, Nodejs, expressjs, and MongoDB.",
+     
     ],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002/Website-for-selling-book-in-MERN-Stack",
+      live: "https://newbookstore1.herokuapp.com/",
     },
     {
-      Title: "Book Recommendation System",
+      Title: "Matrix Converter| (Web Development)",
       Desription: {
-        desc: ["This a recommendation system build using streamlit and ml.", "ML recommendation system",
-      "This a recommendation system build using streamlit and ml.","This a recommendation system build using streamlit and ml.",
+        desc: ["Developed a website for converting second or third-order matrix into Jordanized forms using Python, web template."
+      ,"Many forms of the matrix are visible on the web page like Transpose, Square, Jordan Form, and Determinant.",
     ],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002/Mathmetical_Physics_project",
+      live: "https://mpproject22.herokuapp.com/",
     },
     {
-      Title: "Book Recommendation System",
+      Title: "My portfolio",
       Desription: {
-        desc: ["This a recommendation system build using streamlit and ml.", "ML recommendation system",
-      "This a recommendation system build using streamlit and ml.","This a recommendation system build using streamlit and ml.",
+        desc: ["I developed a nicely framed website to showcase my portfolio.",
+      "The webpage has the educational background page, projects, blogs, work experience, and contact details. Technology used: ReactJs, Html, CSS."
     ],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002/Portfolio-React",
+      live: "https://gopalportfolio2002.netlify.app",
     },
     {
-      Title: "Book Recommendation System",
+      Title: "One Class Text Classification",
       Desription: {
-        desc: ["This a recommendation system build using streamlit and ml.", "ML recommendation system",
-      "This a recommendation system build using streamlit and ml.","This a recommendation system build using streamlit and ml.",
-    ],
+        desc: ["Our goal is to classify the given text into two classes but we have only one class in training data.", "We used ensembles of models and implemented a research paper to solve this problem."],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002/One_Class_Text_Classification",
+      live: "https://github.com/gopalgoyal2002/One_Class_Text_Classification",
     },
     {
-      Title: "Book Ecommarce Web App",
+      Title: "Detecting contradiction and entailment text",
       Desription: {
-        desc: ["ML recommendation system", "ML recommendation system"],
+        desc: ["This is an NLP problem which defines that How two sentences are related. These sentences are entailed, natural and contradicted. Implemented an ANN after the embeddings from the BERT Model. Achieved 92.85% accuracy score",
+        " Developed a TensorFlow-based model using BERT Model and ANN. The model has trained on the sentences dataset."],
       },
-      github: "www.xyz.com",
-      live: "www.xyz.com",
+      github: "https://github.com/gopalgoyal2002",
+      live: "https://github.com/gopalgoyal2002",
     },
+    
   ],
 };
 
 const experience={
   experience:[
+    {
+      componyName:"Upwork",
+      time:"feb 2023 -  Present",
+      desc:{
+        description:["Completed 7 Jobs on upword with 5 start rating",
+        "Build websites for clients using reactjs and nodejs",
+        "Developed backend using FastAPI and host them on azure and aws.",
+        "Convert python scripts into streamlit application."
+      ]
+      },
+      link:"https://www.upwork.com/freelancers/~0117d3589c5f9cebdb",
+      Designation:"Freelancer"
+    },
     {
       componyName:"ZeonAI Labs",
       time:"May 2022 - Nov 2022",
@@ -137,4 +164,47 @@ const experience={
     }
   ]
 }
-export { competitiveSites, projects ,experience};
+
+const skills={
+  web_skills:[
+    {
+      path:"",
+      name:"HTML"
+    },
+    {
+      path:"",
+      name:"CSS"
+    },
+  ],
+  cloud_skills:[
+    {
+      path:"",
+      name:"S3"
+    },
+    {
+      path:"",
+      name:"Lambda"
+    },
+  ],
+  backend_skills:[
+    {
+      path:"",
+      name:"SQL"
+    },
+    {
+      path:"",
+      name:"Elastic Search"
+    },
+  ],
+  ml_skills:[
+    {
+      path:"",
+      name:"Tensor Flow"
+    },
+    {
+      path:"",
+      name:"NLP"
+    },
+  ]
+}
+export { competitiveSites, projects ,experience,skills};

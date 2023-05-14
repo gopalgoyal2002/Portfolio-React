@@ -27,13 +27,6 @@ export default class Main extends Component {
         <Route path="/projects" element={ <Projects/> } />
         <Route path="/experience" element={ <Experience/> } />
         <Route path="/skills" element={ <Skills/> } />
-
-
-
-
-
-        {/* <Route path="about" element={ <About/> } />
-        <Route path="contact" element={ <Contact/> } /> */}
         </Routes>
         </BrowserRouter>
         </div>

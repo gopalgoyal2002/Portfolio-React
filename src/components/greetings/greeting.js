@@ -27,7 +27,7 @@ that make a difference.
           <br/>
           <br/>
           <Zoom>
-          <a href="https://drive.google.com/file/d/1x6qmO_ruPfK89ibuFkHkKgCXJhvOOUKZ/view?usp=sharing" target="_black">
+          <a href="https://drive.google.com/file/d/1x6qmO_ruPfK89ibuFkHkKgCXJhvOOUKZ/view?usp=sharing" target="_black" style={{textDecoration:"None"}}>
           <Button  className="resume-btn" variant="contained">See My Resume</Button>
           </a>
           
