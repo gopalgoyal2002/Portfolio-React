@@ -8,13 +8,13 @@ export default function ProjectCard(props) {
   return (
     <div className="project-div">
       <Zoom left cascade>
-        <p style={{ fontSize: "1.2em" }}>{props.heading}</p>
+        <p style={{ fontSize: "1em" }}>{props.heading}</p>
 
         <hr />
         <div className="project-desciption">
           <ul>
             {props.desc["desc"].map((data, id) => (
-              <li >{data}</li>
+              <li>{data}</li>
             ))}
           </ul>
         </div>
