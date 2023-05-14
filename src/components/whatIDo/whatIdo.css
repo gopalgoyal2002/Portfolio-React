@@ -1,0 +1,12 @@
+.whatido{
+background-color: #ECF9FE;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.whatido div{
+    text-align: center;
+}

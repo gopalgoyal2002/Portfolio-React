@@ -1,0 +1,77 @@
+.main-educations{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-left: 20px; */
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+.education img{
+    border-radius: 50%;
+    
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+
+  }
+  
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+ }
+
+.education-names{
+ margin-left: 20px;
+}
+/* .iconify{
+  text-decoration: none;
+} */
+/* .iconify:hover{
+  text-un
+} */
+.portfolio{
+  margin-bottom: 20px;
+}
+.iconify {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.iconify:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.iconify:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.portfolio-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

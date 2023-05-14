@@ -1,0 +1,44 @@
+.Experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Experience-card{
+    background-color: black;
+    width: 60vw;
+    margin: 5px;
+    padding: 5px;
+    background-color:#A6E1FA;
+    border: 1px solid rgb(128, 144, 160);
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.Experience-card-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px;
+    padding: 4px;
+}
+.Experience-card-header a{
+    text-decoration: none;
+    color: black;
+   
+}
+.Experience-card-description{
+    
+}
+.Experience-card-header a:hover{
+    border-bottom: 1px solid black;
+    animation-delay: 1s;
+}
+@media screen and (max-width:1000px) {
+    .Experience-card{
+        width: 80vw;
+    }
+}

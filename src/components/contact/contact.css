@@ -1,0 +1,20 @@
+.contact-div{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contact-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    width: 200px;
+    justify-content: space-around;
+}
+.contact-links a{
+    text-decoration: none;
+    color: black;
+}

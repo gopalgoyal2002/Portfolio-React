@@ -1,0 +1,28 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "gopalgoyal2002",
+      "name": "Gopal Goyal",
+      "avatar_url": "",
+      "profile": "https://github.com/gopalgoyal2002",
+      "contributions": [
+        "code",
+        "doc",
+        "design",
+        "maintenance",
+        "ideas"
+      ]
+    }
+      ],
+  "contributorsPerLine": 7,
+  "projectName": "Gopal Portfolio",
+  "projectOwner": "Gopal Goyal",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+
+}
