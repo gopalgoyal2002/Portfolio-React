@@ -1,0 +1,9 @@
+.opensource{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}

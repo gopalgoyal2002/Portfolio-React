@@ -1,20 +1,21 @@
 import React from 'react'
-import Project from '../../components/projects/project'
+import OpenSourceComponent from '../../components/openSource/openSource.tsx'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/footer'
 import { Helmet } from 'react-helmet'
-export default function Projects() {
+export default function OpenSource() {
+
   return (
-    <>
-    <Helmet>
-            <title>Gopal's Projects details</title>
+    <div  >
+      <Helmet>
+            <title>Gopal's Open Source details</title>
             <meta name='description'
-            content='Get Projects information of Gopal Goyal.'/>
+            content='Get Open Source information of Gopal Goyal.'/>
             <meta name='keywords' content='about gopal, gopal contact, Gopal Projects, Gopal contact'/>
         </Helmet>
       <Header/>
-      <Project/>
+      <OpenSourceComponent/>
       <Footer/>
-    </>
+    </div>
   )
 }

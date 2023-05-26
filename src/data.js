@@ -38,6 +38,16 @@ const competitiveSites = {
 const projects = {
   projects: [
     {
+      Title: "Apartment Website",
+      Desription: {
+        desc: ["Scrap appartment data from other wetsites selenium and beautiful-soup","Design Backend of this appartment sale website using Nodejs",
+        "Developed the frontend using ReactJs","I delivered this webapp for a client on upwork."
+    ],
+      },
+      github: "https://apartments-sale.com/",
+      live: "https://apartments-sale.com/",
+    },
+    {
       Title: "Resume parser and Filter by Job description",
       Desription: {
         desc: ["Developed resume parser using Name Entity Recognization model and spacy to extract name, email and phone etc.",
@@ -128,9 +138,9 @@ const experience={
       componyName:"Upwork",
       time:"feb 2023 -  Present",
       desc:{
-        description:["Completed 7 Jobs on upword with 5 start rating",
-        "Build websites for clients using reactjs and nodejs",
-        "Developed backend using FastAPI and host them on azure and aws.",
+        description:["Completed 8 Jobs on upwork with 5 start rating",
+        "Build websites for clients using reactjs, nodejs and stremlit",
+        "Developed backend using Nodejs, FastAPI and host them on azure and aws.",
         "Convert python scripts into streamlit application."
       ]
       },

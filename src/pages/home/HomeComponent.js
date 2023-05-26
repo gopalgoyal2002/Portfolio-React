@@ -9,6 +9,7 @@ import Project from "../../components/projects/project";
 import ExperienceComponent from "../../components/experience/experienceComponent";
 // import Skills from "../skills/skills";
 import SkillsComponent from "../../components/skills/skillsComponent";
+import OpenSourceComponent from "../../components/openSource/openSource.tsx";
 
 class Home extends Component {
 
@@ -24,6 +25,9 @@ class Home extends Component {
       <hr/>
       <Project/>
       <hr/>
+      <OpenSourceComponent/>
+      <hr/>
+
       <SkillsComponent/>
       <hr/>
 
