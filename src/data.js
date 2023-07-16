@@ -135,11 +135,21 @@ const projects = {
 const experience={
   experience:[
     {
+      componyName:"ANZ Bangalore",
+      time:"june 2023 -  Present",
+      desc:{
+        description:["working on automation testing in java cucumber framework"
+      ]
+      },
+      link:"https://www.anz.com.au/personal/",
+      Designation:"Engineer"
+    },
+    {
       componyName:"Upwork",
       time:"feb 2023 -  Present",
       desc:{
         description:["Completed 8 Jobs on upwork with 5 start rating",
-        "Build websites for clients using reactjs, nodejs and stremlit",
+        "Build websites for clients using reactjs, nodejs and streamlit",
         "Developed backend using Nodejs, FastAPI and host them on azure and aws.",
         "Convert python scripts into streamlit application."
       ]
@@ -217,4 +227,18 @@ const skills={
     },
   ]
 }
-export { competitiveSites, projects ,experience,skills};
+const openSourceData={
+  openSourceData : [
+    {
+    "Path":"images/Golem Networks.png",
+    "componyName":"Golem Networks",
+    "weblink":"https://www.golem.network/",
+    "maingithub":"https://github.com/gopalgoyal2002/golem-js-preview-program",
+    "repolink":"https://github.com/gopalgoyal2002/golem-js-preview-program",
+    "heading":"Contriute to the review programe and open a issue...",
+    "add":0,
+    "subtract":0,
+    },
+  ]
+}
+export { competitiveSites, projects ,experience,skills,openSourceData};
